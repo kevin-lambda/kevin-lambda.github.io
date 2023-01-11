@@ -1,4 +1,4 @@
-make commits and pushes to >> git push origin master
+make commits and pushes to >> git push origin main
 deploy with >> npm run deploy
 
 # Getting Started with Create React App
