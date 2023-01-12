@@ -1,5 +1,4 @@
-make commits and pushes to >> git push origin main
-deploy with >> npm run deploy
+push build to github repo branch "gh-pages" and deploy with >> npm run deploy
 
 # Getting Started with Create React App
 

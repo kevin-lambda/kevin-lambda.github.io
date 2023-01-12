@@ -1,10 +1,14 @@
+import React from "react"
+import { Route, Routes } from "react-router-dom"
+import { HomePage, AllProjectsPage } from "./pages"
+
 function App() {
   return (
     <div className="App">
-      <h1>hello test test</h1>
-      <a href="https://kevin-lambda.github.io/p5-async-week-project/testWithExtension/index.html">
-        p5-async-week-project
-      </a>
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/projects" element={<AllProjectsPage />}></Route>
+      </Routes>
     </div>
   )
 }
