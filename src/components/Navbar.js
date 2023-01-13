@@ -6,9 +6,8 @@ import logo from "../assets/logo.jpg"
 function Navbar() {
   return (
     <nav className="comp-navbar">
-      <div>Navbar component</div>
-      <img src={logo} alt="portoflio site logo" />
-      <button> say hi! </button>
+      <img className="nav-img" src={logo} alt="portoflio site logo" />
+      <button className="nav-button"> say hi! </button>
     </nav>
   )
 }
