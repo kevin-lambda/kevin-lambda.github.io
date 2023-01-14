@@ -5,9 +5,9 @@ function Body() {
   return (
     <main className="comp-main">
       <section className="body-hero">
-        <h1>developer, engineer, creative</h1>
-        <h2>sub title description with text and stuff. I make stuff</h2>
-        <img className="hero-img" src={IMAGES.logo} alt="avatar" />
+        <h1>Fullstack Developer, Engineer & Technical Creative</h1>
+        <h2>I build technical things, creatively. </h2>
+        <img className="hero-img" src={IMAGES.profile_pic} alt="avatar" />
       </section>
       <section className="body-subhero">
         <img className="subhero-img" src={IMAGES.subhero} alt="sub hero" />

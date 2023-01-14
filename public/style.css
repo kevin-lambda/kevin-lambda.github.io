@@ -1,4 +1,15 @@
 /* \\\\\\\\\\\\\\\\\\\\ */
+/* \ CONTROL VARIABLES\ */
+/* \\\\\\\\\\\\\\\\\\\\ */
+
+:root {
+  --cardRadius: 25px;
+  --themeColor: #00ad91;
+  --p-font-size: 18px;
+  --p-font-weight: 500;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\ */
 /* \\\\\\ CSS RESET \\\ */
 /* \\\\\\\\\\\\\\\\\\\\ */
 
@@ -6,7 +17,12 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p {
+  font-size: var(--p-font-size);
+  font-weight: var(--p-font-weight);
 }
 
 body {
@@ -15,20 +31,13 @@ body {
 
 li {
   list-style-type: none;
+  font-size: var(--p-font-size);
+  font-weight: var(--p-font-weight);
 }
 
 ul {
   margin: 0px;
   padding: 0px;
-}
-
-/* \\\\\\\\\\\\\\\\\\\\ */
-/* \ CONTROL VARIABLES\ */
-/* \\\\\\\\\\\\\\\\\\\\ */
-
-:root {
-  --cardRadius: 25px;
-  --themeColor: #00ad91;
 }
 
 /* \\\\\\\\\\\\\\\\\\\\ */
@@ -40,6 +49,8 @@ ul {
   /* height: 15%; */
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
 }
 
 .comp-main {
@@ -67,10 +78,30 @@ ul {
 /* \\\\\\\\\\\\\\\\\\\\ */
 .nav-img {
   border: 1px solid black;
+  width: 75px;
+  margin-left: 2rem;
 }
 
 .nav-button {
-  border: 1px solid black;
+  border: 2.5px solid var(--themeColor);
+  border-radius: 1.5rem;
+  height: 3rem;
+  width: 11rem;
+  padding: 0.7rem;
+  background-color: transparent;
+  color: var(--themeColor);
+  margin-right: 3%;
+  transition: 300ms;
+  text-decoration: none;
+  font-size: var(--p-font-size);
+  font-weight: var(--p-font-weight);
+  text-align: center;
+}
+
+.nav-button:hover {
+  background-color: var(--themeColor);
+  transition: 300ms;
+  color: white;
 }
 
 /* \\\\\\\\\\\\\\\\\\\\ */
@@ -85,8 +116,22 @@ ul {
   align-items: center;
 }
 
+.body-hero h1 {
+  font-size: 40px;
+  font-weight: 1300;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.body-hero h2 {
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
 .hero-img {
-  max-width: 200px;
+  margin-top: 2rem;
+  max-width: 225px;
 }
 
 /* \\\\\\\ SUBHERO \\\\\\\ */

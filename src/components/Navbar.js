@@ -1,13 +1,22 @@
 import React from "react"
 // to use local images with react, you need to import them is one way to do it
 // react... should have all the stuff it uses in src?
-import logo from "../assets/logo.jpg"
+import IMAGES from "../assets/index.js"
 
 function Navbar() {
   return (
     <nav className="comp-navbar">
-      <img className="nav-img" src={logo} alt="portoflio site logo" />
-      <button className="nav-button"> say hi! </button>
+      <a href="/">
+        <img
+          className="nav-img"
+          src={IMAGES.logov4}
+          alt="portoflio site logo"
+        />
+      </a>
+
+      <a href="/" className="nav-button">
+        say hi! and stuff
+      </a>
     </nav>
   )
 }
