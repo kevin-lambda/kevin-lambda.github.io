@@ -1,11 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.152df0b3.js",
-    "static/media/subhero.jpg": "/static/media/subhero.f68acc76aca5b13525a6.jpg",
+    "main.js": "/static/js/main.ff7f5ee6.js",
+    "static/media/profile_pic1.png": "/static/media/profile_pic1.4749d3502c637a09b021.png",
+    "static/media/p3.png": "/static/media/p3.92f60b50d4e0a583dda9.png",
+    "static/media/p1.png": "/static/media/p1.a385ce48f4480bd90474.png",
+    "static/media/p9.png": "/static/media/p9.faefdb0549e1c99b4859.png",
+    "static/media/subhero.png": "/static/media/subhero.bf474c23a5eeadba6fcf.png",
+    "static/media/logo-react.png": "/static/media/logo-react.c1400a56b9ac0900068f.png",
+    "static/media/p8.png": "/static/media/p8.1f4f9ff7dc11d57fd7d9.png",
+    "static/media/p2.png": "/static/media/p2.fe723f513a9fc7c8a105.png",
+    "static/media/p22.png": "/static/media/p22.b27e21fa5dc8bca28d75.png",
+    "static/media/lightbulb-regular.svg": "/static/media/lightbulb-regular.8c0b88deeaca9a92f3d7fb5c0a489e90.svg",
+    "static/media/screwdriver-wrench-solid.svg": "/static/media/screwdriver-wrench-solid.de18cf690f03b5f346f58fb92427858f.svg",
+    "static/media/code-solid.svg": "/static/media/code-solid.83ef4d5a8a8686c987b399c001525849.svg",
     "index.html": "/index.html",
-    "main.152df0b3.js.map": "/static/js/main.152df0b3.js.map"
+    "main.ff7f5ee6.js.map": "/static/js/main.ff7f5ee6.js.map"
   },
   "entrypoints": [
-    "static/js/main.152df0b3.js"
+    "static/js/main.ff7f5ee6.js"
   ]
 }
