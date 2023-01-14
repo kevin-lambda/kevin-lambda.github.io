@@ -104,7 +104,7 @@ function Body() {
       </section>
       <section className="body-projects-heading">
         <h1 className="about1">Projects</h1>
-        <h2 className="about2">Here are some of the projects I've built.</h2>
+        <h2 className="about2">Here are some of my recent works.</h2>
       </section>
       <section className="body-projects">
         <div className="projects-items-container">
@@ -112,25 +112,57 @@ function Body() {
             href="https://wormseye-d1c52.web.app/"
             className="single-item-image"
           >
-            <img src={IMAGES.p8} alt="project 1: worms eye view" />
-            {/* <div className="overlay">
-              <span>
-                test weaf ef ew text awf ouehf lwe fnksadfnksdj dsk ds s dds ksd
-                jksd kjds awf ef we fwe f ewfe w
-              </span>
-            </div> */}
+            <div className="project-card-container">
+              <img src={IMAGES.p1} alt="project 1: worms eye view" />
+
+              <div className="overlay">
+                <div className="overlay-text-title">TITLE weaf aewf ew f</div>
+                <div className="overlay-text">
+                  text here fwa efwaef we ew fwe waf ew few even more text asfn
+                  thoaweroj 3waur0 weoaifh aw4eiuf hnawefjkln eso;fajsw effowaef
+                  j0awe yfh9p73wa hfnweralkuf
+                </div>
+              </div>
+            </div>
           </a>
+
           <a
             href="https://kevin-lambda.github.io/p5-async-week-project/testWithExtension/index.html"
             className="single-item-image"
           >
-            <img src={IMAGES.p22} alt="project 2: p5 project" />
+            <div className="project-card-container">
+              <img src={IMAGES.p2} alt="project 2: p5js" />
+
+              <div className="overlay">
+                <div className="overlay-text-title">TITLE weaf aewf ew f</div>
+                <div className="overlay-text">
+                  text here fwa efwaef we ew fwe waf ew few even more text asfn
+                  thoaweroj 3waur0 weoaifh aw4eiuf hnawefjkln eso;fajsw effowaef
+                  j0awe yfh9p73wa hfnweralkuf
+                </div>
+              </div>
+            </div>
           </a>
+
           <a
             href="https://kevin-lam.netlify.app/"
             className="single-item-image"
           >
-            <img src={IMAGES.p9} alt="project 3: creative project portfolio" />
+            <div className="project-card-container">
+              <img
+                src={IMAGES.p3}
+                alt="project 3: creative project portfolio"
+              />
+
+              <div className="overlay">
+                <div className="overlay-text-title">TITLE weaf aewf ew f</div>
+                <div className="overlay-text">
+                  text here fwa efwaef we ew fwe waf ew few even more text asfn
+                  thoaweroj 3waur0 weoaifh aw4eiuf hnawefjkln eso;fajsw effowaef
+                  j0awe yfh9p73wa hfnweralkuf
+                </div>
+              </div>
+            </div>
           </a>
         </div>
       </section>

@@ -167,7 +167,7 @@ h1 {
   font-weight: 500;
   font-size: 20px;
   margin-top: 2rem;
-  padding: 0rem 10rem;
+  padding: 0rem 6rem;
 }
 /* \\\\\\ SKILLS \\\\\\\\ */
 .body-skills {
@@ -226,7 +226,7 @@ h1 {
   background-color: var(--themeColor);
   padding-right: 3rem;
   padding-left: 3rem;
-  padding-bottom: 10rem;
+  padding-bottom: 8rem;
 }
 
 .body-projects {
@@ -243,39 +243,77 @@ h1 {
 }
 
 .single-item-image {
-  /* border: 1px solid black; */
+  /* border: 1px solid rgb(255, 0, 0); */
   margin: 0.75rem;
   width: 30%;
+  /* height: 120%; */
   border-radius: 15px;
-  width: 400px;
+  /* width: 400px; */
+}
+
+.project-card-container {
+  /* border: 1px solid rgb(0, 255, 64); */
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  position: relative;
+  /* position relative is important for child elements to be able to use position absolute */
 }
 
 .single-item-image img {
   width: 100%;
-  border: 1px solid black;
+  height: 100%;
+  /* border: 1px solid black; */
   border-radius: 15px;
-  height: 450px;
+  /* height: 450px; */
 }
 
 .single-item-image img:hover {
-  background-color: rgb(255, 115, 0);
+  /* background-color: rgb(255, 115, 0); */
+  /* border: 3px solid rgb(17, 0, 255); */
 }
 
 .overlay {
-  position: relative;
+  /* border: 1px solid rgb(255, 0, 255); */
+  border-radius: 15px;
+
+  position: absolute;
+  /* in order to use position absolute, parent element MUST have position relative */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
   width: 100%;
-  padding: 3rem;
-  text-align: center;
-  top: -20rem;
-  /* top: 10rem; */
-  /* height: 100%; */
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
 }
 
-.overlay span {
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(100%, -100%); */
+.overlay-text {
+  color: white;
+  font-size: 1.3vw;
+  position: relative;
+  top: 20%;
+  /* left: 50%; */
+  text-align: center;
+  border: 1px solid black;
+  padding: 0rem 1rem;
+}
+
+.overlay-text-title {
+  color: white;
+  font-size: 1.8vw;
+  position: relative;
+  top: 15%;
+  /* left: 40%; */
+  text-align: center;
+  border: 1px solid black;
+  padding: 0rem 1rem;
+}
+
+.project-card-container:hover .overlay {
+  opacity: 0.9;
 }
 
 .logo-react {
