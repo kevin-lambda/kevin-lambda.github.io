@@ -2,7 +2,7 @@
 
 You can visit my portfolio here: [kevin-lambda.github.io](https://kevin-lambda.github.io/)
 
-This is the second iteration of my software engineering portfolio.
+This is the second iteration of my portfolio.
 
 ## Made with
 
