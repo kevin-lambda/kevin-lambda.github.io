@@ -1,6 +1,8 @@
-# Software engineering portfolio
+# Welcome to my software engineering portfolio
 
-My software engineering portfolio. This is the second iteration.
+You can visit my portfolio here: [kevin-lambda.github.io](https://kevin-lambda.github.io/)
+
+This is the second iteration of my software engineering portfolio.
 
 ## Made with
 
