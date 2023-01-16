@@ -237,6 +237,7 @@ h1 {
   height: 100%;
   border-radius: 15px;
   position: relative;
+  border: 1px solid rgb(175, 175, 175);
   /* position relative is important for child elements to be able to use position absolute */
 }
 
