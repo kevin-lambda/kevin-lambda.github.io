@@ -6,23 +6,50 @@ function Footer() {
     <footer className="comp-footer">
       <div className="footer-content">
         <div>
-          <h2>Get in touch!</h2>
+          <h2 className="footer-heading">Get in touch!</h2>
         </div>
         <div>
-          <p>social icons</p>
+          <p className="footer-icons">
+            <a
+              className="icon-a"
+              href="https://www.linkedin.com/in/kevin-q-lam/"
+            >
+              <span className="icon-span">
+                <img
+                  className="icon-img"
+                  src={IMAGES.linkedin}
+                  width="45px"
+                  alt="icons"
+                />
+              </span>
+            </a>
+            <a className="icon-a" href="https://github.com/kevin-lambda">
+              <span className="icon-span">
+                <img
+                  className="icon-img"
+                  src={IMAGES.github}
+                  width="46px"
+                  alt="icons"
+                />
+              </span>
+            </a>
+            <a
+              className="icon-a"
+              href="mailto:kevin.quoct.lam+portfolio2@gmail.com"
+            >
+              <span className="icon-span">
+                <img
+                  className="icon-img"
+                  src={IMAGES.email}
+                  width="45px"
+                  alt="icons"
+                />
+              </span>
+            </a>
+          </p>
         </div>
         <div className="footer-copyright">Built by me ©2023</div>
-        <div>
-          Made with React
-          <span> </span>
-          <span>
-            <img
-              className="logo-react"
-              src={IMAGES.logo_react}
-              alt="react logo"
-            />
-          </span>
-        </div>
+        <div className="footer-made-with">Made with React</div>
       </div>
     </footer>
   )

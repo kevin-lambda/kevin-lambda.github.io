@@ -15,10 +15,10 @@ function Body() {
       <section className="body-about">
         <h1 className="about1">My name is Kevin</h1>
         <h2 className="about2">
-          After eight years as a mechanical engineer, I now use those technical
-          skills with my creative nature to build software. I love to explore
-          new challenges, seek other perspectives and strive to build enjoyable
-          experiences.
+          I was a mechanical engineer for eight years. Now I use those technical
+          skills I honed in engineering along with my creative nature to build
+          software. I love to explore new challenges, seek other perspectives
+          and strive to build enjoyable experiences.
         </h2>
       </section>
       <section className="body-skills">
@@ -104,7 +104,7 @@ function Body() {
       </section>
       <section className="body-projects-heading">
         <h1 className="about1">Projects</h1>
-        <h2 className="about2">Here are some of my recent works.</h2>
+        <h2 className="about2">Here are live demos of my recent works.</h2>
       </section>
       <section className="body-projects">
         <div className="projects-items-container">
@@ -116,11 +116,12 @@ function Body() {
               <img src={IMAGES.p1} alt="project 1: worms eye view" />
 
               <div className="overlay">
-                <div className="overlay-text-title">TITLE weaf aewf ew f</div>
+                <div className="overlay-text-title">Worm's Eye View</div>
                 <div className="overlay-text">
-                  text here fwa efwaef we ew fwe waf ew few even more text asfn
-                  thoaweroj 3waur0 weoaifh aw4eiuf hnawefjkln eso;fajsw effowaef
-                  j0awe yfh9p73wa hfnweralkuf
+                  Fully featured plant suggestion application based on current
+                  location and date. Includes user authentication, stored user
+                  journal, garden planning visualizer, browseable plant
+                  database.
                 </div>
               </div>
             </div>
@@ -134,11 +135,10 @@ function Body() {
               <img src={IMAGES.p2} alt="project 2: p5js" />
 
               <div className="overlay">
-                <div className="overlay-text-title">TITLE weaf aewf ew f</div>
+                <div className="overlay-text-title">P5js experimentation</div>
                 <div className="overlay-text">
-                  text here fwa efwaef we ew fwe waf ew few even more text asfn
-                  thoaweroj 3waur0 weoaifh aw4eiuf hnawefjkln eso;fajsw effowaef
-                  j0awe yfh9p73wa hfnweralkuf
+                  Four explorations of p5js including fractal generation,
+                  pattern animation, pointilist effect, p5js sound library.
                 </div>
               </div>
             </div>
@@ -155,11 +155,12 @@ function Body() {
               />
 
               <div className="overlay">
-                <div className="overlay-text-title">TITLE weaf aewf ew f</div>
+                <div className="overlay-text-title">
+                  Creative projects portfolio
+                </div>
                 <div className="overlay-text">
-                  text here fwa efwaef we ew fwe waf ew few even more text asfn
-                  thoaweroj 3waur0 weoaifh aw4eiuf hnawefjkln eso;fajsw effowaef
-                  j0awe yfh9p73wa hfnweralkuf
+                  Made with Gatsbyjs, another portfolio containing creative
+                  projects in other mediums.
                 </div>
               </div>
             </div>
@@ -169,5 +170,27 @@ function Body() {
     </main>
   )
 }
+
+// easter egg
+console.log(
+  "==================================================",
+  "\n",
+  "Hello there developer.",
+  "\n",
+  "Are you inspecting to see how I built this?",
+  "\n",
+  "==================================================",
+  "\n",
+  "- I started with >>npx create-react-app",
+  "\n",
+  "- I used vanilla react, css, javascript, html",
+  "\n",
+  "- I made the logo myself",
+  "\n",
+  "- I used dall-e 2 to generate the bottom of the fold banner",
+  "\n",
+  "- I controlled for screen sizes with just one @media query ",
+  "\n"
+)
 
 export default Body

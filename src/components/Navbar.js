@@ -9,12 +9,15 @@ function Navbar() {
       <a href="/">
         <img
           className="nav-img"
-          src={IMAGES.logov5}
+          src={IMAGES.logov6}
           alt="portoflio site logo"
         />
       </a>
 
-      <a href="/" className="nav-button">
+      <a
+        href="mailto:kevin.quoct.lam+portfolio2@gmail.com"
+        className="nav-button"
+      >
         email me!
       </a>
     </nav>
