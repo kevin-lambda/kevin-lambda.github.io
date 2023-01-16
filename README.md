@@ -1,6 +1,6 @@
 # Software engineering portfolio
 
-This is my software engineering portfolio.
+My software engineering portfolio. This is the second iteration.
 
 ## Made with
 
