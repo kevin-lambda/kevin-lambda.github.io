@@ -49,7 +49,9 @@ function Footer() {
           </p>
         </div>
         <div className="footer-copyright">Built by me ©2023</div>
-        <div className="footer-made-with">Made with React</div>
+        <div className="footer-made-with">
+          Made with React, based on Matt Farley's site
+        </div>
       </div>
     </footer>
   )

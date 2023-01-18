@@ -18,7 +18,7 @@ function Body() {
           I was a mechanical engineer for eight years. Now I use those technical
           skills I honed in engineering along with my creative nature to build
           software. I love to explore new challenges, seek other perspectives
-          and strive to build enjoyable experiences.
+          and strive to create enjoyable experiences.
         </h2>
       </section>
       <section className="body-skills">
@@ -64,8 +64,8 @@ function Body() {
             />
             <h1 className="skill-item-h1">Technical</h1>
             <p>
-              I can dig into the details to troubleshoot and ensure the project
-              has a robust foundation.
+              I dig into the details to troubleshoot and ensure the project has
+              a robust foundation.
             </p>
             <p className="skill-item-p-heading">Other Technical Fields:</p>
             <p>Microcontrollers, Audio Production, Composite Structures</p>
@@ -104,7 +104,9 @@ function Body() {
       </section>
       <section className="body-projects-heading">
         <h1 className="about1">Projects</h1>
-        <h2 className="about2">Here are live demos of my recent works.</h2>
+        <h2 className="about2">
+          Here are live demos of my recent works you can visit.
+        </h2>
       </section>
       <section className="body-projects">
         <div className="projects-items-container">
