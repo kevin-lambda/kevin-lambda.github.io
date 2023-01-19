@@ -10,6 +10,7 @@ import wrench from "./screwdriver-wrench-solid.svg"
 import p1 from "./p1.png"
 import p2 from "./p2.png"
 import p3 from "./p3.png"
+import p4 from "./p4.png"
 import logo_react from "./logo-react.png"
 import email from "./email.png"
 import linkedin from "./linkedin.png"
@@ -28,6 +29,7 @@ const IMAGES = {
   p1,
   p2,
   p3,
+  p4,
   logo_react,
   email,
   linkedin,

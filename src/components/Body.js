@@ -111,6 +111,23 @@ function Body() {
       <section className="body-projects">
         <div className="projects-items-container">
           <a
+            href="https://kevin-lambda.github.io/dakine-ipsum/"
+            className="single-item-image"
+          >
+            <div className="project-card-container">
+              <img src={IMAGES.p4} alt="project 4: dakine ipsum" />
+
+              <div className="overlay">
+                <div className="overlay-text-title">Dakine Ipsum</div>
+                <div className="overlay-text">
+                  Ipsum Lorem filler text generated using a Context Free Grammar
+                  with Hawaii Creole English (Hawaiian Pidgin).
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a
             href="https://wormseye-d1c52.web.app/"
             className="single-item-image"
           >
