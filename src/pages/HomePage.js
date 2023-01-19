@@ -11,8 +11,4 @@ function HomePage() {
   )
 }
 
-// <a href="https://kevin-lambda.github.io/p5-async-week-project/testWithExtension/index.html">
-//   p5-async-week-project
-// </a>
-
 export default HomePage
