@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.68367a3f.js",
+    "main.js": "/static/js/main.3667e992.js",
     "static/media/profile_pic1.png": "/static/media/profile_pic1.4749d3502c637a09b021.png",
     "static/media/p3.png": "/static/media/p3.0644c090308e853d28a1.png",
     "static/media/subhero.png": "/static/media/subhero.bf474c23a5eeadba6fcf.png",
@@ -13,9 +13,9 @@
     "static/media/screwdriver-wrench-solid.svg": "/static/media/screwdriver-wrench-solid.de18cf690f03b5f346f58fb92427858f.svg",
     "static/media/code-solid.svg": "/static/media/code-solid.83ef4d5a8a8686c987b399c001525849.svg",
     "index.html": "/index.html",
-    "main.68367a3f.js.map": "/static/js/main.68367a3f.js.map"
+    "main.3667e992.js.map": "/static/js/main.3667e992.js.map"
   },
   "entrypoints": [
-    "static/js/main.68367a3f.js"
+    "static/js/main.3667e992.js"
   ]
 }
