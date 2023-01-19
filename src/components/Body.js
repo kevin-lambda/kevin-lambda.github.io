@@ -110,7 +110,7 @@ function Body() {
       </section>
       <section className="body-projects">
         <div className="projects-items-container">
-          <a
+          {/* <a
             href="https://kevin-lambda.github.io/dakine-ipsum/"
             className="single-item-image"
           >
@@ -125,7 +125,7 @@ function Body() {
                 </div>
               </div>
             </div>
-          </a>
+          </a> */}
 
           <a
             href="https://wormseye-d1c52.web.app/"
