@@ -6,7 +6,7 @@ function Footer() {
     <footer className="comp-footer">
       <div className="footer-content">
         <div>
-          <h2 className="footer-heading">Get in touch!</h2>
+          <h2 className="footer-heading">Get in touch</h2>
         </div>
         <div>
           <p className="footer-icons">

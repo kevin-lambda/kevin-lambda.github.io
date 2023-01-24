@@ -186,6 +186,14 @@ function Body() {
           </a>
         </div>
       </section>
+      {/* <section className="pre-footer">
+        <div className="pre-footer-text">
+          Want to visit my developer's journal?
+        </div>
+        <a className="nav-button" href="/">
+          Let's go
+        </a>
+      </section> */}
     </main>
   )
 }
