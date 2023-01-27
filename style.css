@@ -288,6 +288,29 @@ h1 {
 }
 
 /* \\\\\\\\\\\\\\\\\\\\ */
+/* \\\ pre footer \\\\\ */
+/* \\\\\\\\\\\\\\\\\\\\ */
+
+.pre-footer {
+  border: 1px solid black;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+  border-radius: var(--cardRadius);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 2rem;
+  background-color: #185792;
+}
+.pre-footer-text {
+  border: 1px solid black;
+}
+.pre-footer-button {
+  border: 1px solid black;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\ */
 /* \\\ footer \\\\\\\\\ */
 /* \\\\\\\\\\\\\\\\\\\\ */
 
