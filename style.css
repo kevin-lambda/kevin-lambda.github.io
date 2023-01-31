@@ -153,6 +153,10 @@ h1 {
   margin-top: 2rem;
   padding: 0rem 6rem;
 }
+
+.about2-link {
+  color: rgb(103, 27, 189);
+}
 /* \\\\\\ SKILLS \\\\\\\\ */
 .body-skills {
   margin-top: -5rem;
