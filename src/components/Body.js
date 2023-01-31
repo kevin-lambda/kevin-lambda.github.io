@@ -105,7 +105,15 @@ function Body() {
       <section className="body-projects-heading">
         <h1 className="about1">Projects</h1>
         <h2 className="about2">
-          Here are live demos of my recent works you can visit.
+          Here are live demos of my recent works you can visit. To follow my
+          learning progress, check out my{" "}
+          <a
+            className="about2-link"
+            href="https://github.com/kevin-lambda/kevin-lambda/blob/main/Project_history.md"
+          >
+            devlog
+          </a>
+          .
         </h2>
       </section>
       <section className="body-projects">
