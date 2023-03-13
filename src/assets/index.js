@@ -15,6 +15,7 @@ import logo_react from "./logo-react.png"
 import email from "./email.png"
 import linkedin from "./linkedin.png"
 import github from "./github.png"
+import p6 from "./p6.jpg"
 
 const IMAGES = {
   logo,
@@ -30,6 +31,7 @@ const IMAGES = {
   p2,
   p3,
   p4,
+  p6,
   logo_react,
   email,
   linkedin,

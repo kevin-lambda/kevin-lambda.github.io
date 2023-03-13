@@ -105,15 +105,17 @@ function Body() {
       <section className="body-projects-heading">
         <h1 className="about1">Projects</h1>
         <h2 className="about2">
-          Here are live demos of my recent works you can visit. To follow my
-          learning progress, check out my{" "}
-          <a
-            className="about2-link"
-            href="https://github.com/kevin-lambda/kevin-lambda/blob/main/Project_history.md"
-          >
-            devlog
-          </a>
-          .
+          Here are live demos of my recent works you can visit.
+          <h2 class="about2">
+            To follow my learning progress, check out my{" "}
+            <a
+              className="about2-link"
+              href="https://github.com/kevin-lambda/kevin-lambda/blob/main/Project_history.md"
+            >
+              devlog
+            </a>
+            .
+          </h2>
         </h2>
       </section>
       <section className="body-projects">
@@ -155,17 +157,18 @@ function Body() {
           </a>
 
           <a
-            href="https://kevin-lambda.github.io/p5-async-week-project/testWithExtension/index.html"
+            href="https://this-belongs-to.onrender.com/"
             className="single-item-image"
           >
             <div className="project-card-container">
-              <img src={IMAGES.p2} alt="project 2: p5js" />
+              <img src={IMAGES.p6} alt="project 5" />
 
               <div className="overlay">
-                <div className="overlay-text-title">P5js experimentation</div>
+                <div className="overlay-text-title">This Page Belongs To</div>
                 <div className="overlay-text">
-                  Four explorations of p5js including fractal generation,
-                  pattern animation, pointilist effect, p5js sound library.
+                  Novelty site allowing a user to own a webpage with a
+                  persistent leaderboard built with PERN (Postgresql, Express,
+                  React, Node).
                 </div>
               </div>
             </div>
