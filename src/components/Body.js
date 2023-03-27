@@ -46,6 +46,7 @@ function Body() {
               <li>Javascript</li>
               <li>HMTL</li>
               <li>CSS</li>
+              <li>NextJS</li>
               <li>P5js</li>
               <li>CMS</li>
               <li>Firebase</li>
