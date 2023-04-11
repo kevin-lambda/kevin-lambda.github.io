@@ -111,7 +111,7 @@ function Body() {
             To follow my learning progress, check out my{" "}
             <a
               className="about2-link"
-              href="https://github.com/kevin-lambda/kevin-lambda/blob/main/Project_history.md"
+              href="https://github.com/kevin-lambda/kevin-lambda/blob/main/dev_log.md"
             >
               devlog
             </a>
