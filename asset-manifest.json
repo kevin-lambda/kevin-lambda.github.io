@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.9f9c538e.js",
+    "main.js": "/static/js/main.a260bf7e.js",
     "static/media/profile_pic1.png": "/static/media/profile_pic1.4749d3502c637a09b021.png",
     "static/media/p3.png": "/static/media/p3.0644c090308e853d28a1.png",
     "static/media/subhero.png": "/static/media/subhero.bf474c23a5eeadba6fcf.png",
     "static/media/logo-react.png": "/static/media/logo-react.c1400a56b9ac0900068f.png",
     "static/media/p1.png": "/static/media/p1.eea3c6ad8dad2cf1a159.png",
     "static/media/p6.jpg": "/static/media/p6.fc271879a2d7eb747ede.jpg",
+    "static/media/p8.jpg": "/static/media/p8.dbb58e9b6c9838a2dae6.jpg",
+    "static/media/p7.jpg": "/static/media/p7.d17e5d68669d955c007e.jpg",
     "static/media/p4.png": "/static/media/p4.b93e1d6a39893e05edc9.png",
     "static/media/p2.png": "/static/media/p2.6371458002171552b881.png",
     "static/media/logov6.png": "/static/media/logov6.88e46bb3b0309a4ce0cc.png",
@@ -14,9 +16,9 @@
     "static/media/screwdriver-wrench-solid.svg": "/static/media/screwdriver-wrench-solid.de18cf690f03b5f346f58fb92427858f.svg",
     "index.html": "/index.html",
     "static/media/code-solid.svg": "/static/media/code-solid.83ef4d5a8a8686c987b399c001525849.svg",
-    "main.9f9c538e.js.map": "/static/js/main.9f9c538e.js.map"
+    "main.a260bf7e.js.map": "/static/js/main.a260bf7e.js.map"
   },
   "entrypoints": [
-    "static/js/main.9f9c538e.js"
+    "static/js/main.a260bf7e.js"
   ]
 }
