@@ -16,6 +16,8 @@ import email from "./email.png"
 import linkedin from "./linkedin.png"
 import github from "./github.png"
 import p6 from "./p6.jpg"
+import p7 from "./p7.jpg"
+import p8 from "./p8.jpg"
 
 const IMAGES = {
   logo,
@@ -32,6 +34,8 @@ const IMAGES = {
   p3,
   p4,
   p6,
+  p7,
+  p8,
   logo_react,
   email,
   linkedin,

@@ -108,7 +108,7 @@ function Body() {
         <h2 className="about2">
           Here are live demos of my recent works you can visit.
           <h2 class="about2">
-            To follow my learning progress, check out my{" "}
+            See my learning journey at my{" "}
             <a
               className="about2-link"
               href="https://github.com/kevin-lambda/kevin-lambda/blob/main/dev_log.md"
@@ -121,6 +121,36 @@ function Body() {
       </section>
       <section className="body-projects">
         <div className="projects-items-container">
+          <a href="https://solari-kl.vercel.app/" className="single-item-image">
+            <div className="project-card-container">
+              <img src={IMAGES.p7} alt="project 7: solari" />
+
+              <div className="overlay">
+                <div className="overlay-text-title">Solari</div>
+                <div className="overlay-text">
+                  A planning tool modeling energy output of a solar energy
+                  project using historical data.
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://bowlerator.vercel.app/"
+            className="single-item-image"
+          >
+            <div className="project-card-container">
+              <img src={IMAGES.p8} alt="project 8: bowlerator" />
+
+              <div className="overlay">
+                <div className="overlay-text-title">Bowlerator</div>
+                <div className="overlay-text">
+                  Landing page for a small business that generates food bowl
+                  ideas.
+                </div>
+              </div>
+            </div>
+          </a>
+
           <a
             href="https://kevin-lambda.github.io/dakine-ipsum/"
             className="single-item-image"
